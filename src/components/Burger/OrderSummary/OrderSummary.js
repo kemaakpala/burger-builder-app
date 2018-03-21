@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Aux from '../../../hoc/Aux'
+import Aux from '../../../hoc/Auxillary'
 const OrderSummary = (props) => {
     const ingredientSummary = Object.keys(props.ingredients)
         .map(igKey => {
