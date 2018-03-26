@@ -1,5 +1,5 @@
 .Input{
-    width: 10px;
+    width: 100%;
     padding: 10px;
     box-sizing: border-box;
 }
@@ -24,4 +24,9 @@
 .InputElement:focus{
     outline: none;
     background-color: #ccc;
+}
+
+.Invalid {
+    border: 1px solid red;
+    background: #FDA49A;
 }
