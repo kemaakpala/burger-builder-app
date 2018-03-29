@@ -19,12 +19,20 @@ const input = (props) => {
         />
         break
     case ('textarea'):
-        inputElement = <input 
+        inputElement = <textarea 
             className={inputClasses.join(' ')} 
             {...props.elementConfig}
-            value={props.value}
+            //value={props.value}
             onChange={props.changed} 
-        />
+
+            // <input 
+            // className={inputClasses.join(' ')} 
+            // {...props.elementConfig}
+            // value={props.value}
+            // onChange={props.changed} 
+        >
+            {props.value}
+        </textarea>
         break
     case ('select'):
         inputElement = <select 
